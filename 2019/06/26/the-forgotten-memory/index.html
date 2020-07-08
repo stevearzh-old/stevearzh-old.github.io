@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html style="display: none;" lang="zh">
+    <head>
+    <meta charset="utf-8">
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.5.2 -->
+    <script>
+        window.materialVersion = "1.5.2"
+        // Delete localstorage with these tags
+        window.oldVersion = [
+            'codestartv1',
+            '1.3.4',
+            '1.4.0',
+            '1.4.0b1',
+            '1.5.0'
+        ]
+    </script>
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Meta & Info -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Title -->
+    
+    <title>
+        
+            为了忘却的记忆 | 
+        
+        隻言片語
+    </title>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/favicon.png">
+    <link rel="icon" href="/favicon.png">
+
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" itemprop="description" content="">
+    <meta name="keywords" content="">
+    <meta name="theme-color" content="#0097A7">
+
+    <!-- Disable Fucking Bloody Baidu Tranformation -->
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import lsloader -->
+    <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(a){try{localStorage.removeItem(a)}catch(b){}};lsloader.setLS=function(a,c){try{localStorage.setItem(a,c)}catch(b){}};lsloader.getLS=function(a){var c="";try{c=localStorage.getItem(a)}catch(b){c=""}return c};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var b=[];for(var a=0;a<localStorage.length;a++){b.push(localStorage.key(a))}b.forEach(function(e){var f=lsloader.getLS(e);if(window.oldVersion){var d=window.oldVersion.reduce(function(g,h){return g||f.indexOf("/*"+h+"*/")!==-1},false);if(d){lsloader.removeLS(e)}}})}catch(c){}};lsloader.clean();lsloader.load=function(f,a,b,d){if(typeof b==="boolean"){d=b;b=undefined}d=d||false;b=b||function(){};var e;e=this.getLS(f);if(e&&e.indexOf(versionString)===-1){this.removeLS(f);this.requestResource(f,a,b,d);return}if(e){var c=e.split(versionString)[0];if(c!=a){console.log("reload:"+a);this.removeLS(f);this.requestResource(f,a,b,d);return}e=e.split(versionString)[1];if(d){this.jsRunSequence.push({name:f,code:e});this.runjs(a,f,e)}else{document.getElementById(f).appendChild(document.createTextNode(e));b()}}else{this.requestResource(f,a,b,d)}};lsloader.requestResource=function(b,e,a,c){var d=this;if(c){this.iojs(e,b,function(h,f,g){d.setLS(f,h+versionString+g);d.runjs(h,f,g)})}else{this.iocss(e,b,function(f){document.getElementById(b).appendChild(document.createTextNode(f));d.setLS(b,e+versionString+f)},a)}};lsloader.iojs=function(d,b,g){var a=this;a.jsRunSequence.push({name:b,code:""});try{var f=new XMLHttpRequest();f.open("get",d,true);f.onreadystatechange=function(){if(f.readyState==4){if((f.status>=200&&f.status<300)||f.status==304){if(f.response!=""){g(d,b,f.response);return}}a.jsfallback(d,b)}};f.send(null)}catch(c){a.jsfallback(d,b)}};lsloader.iocss=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.iofonts=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.runjs=function(f,c,e){if(!!c&&!!e){for(var b in this.jsRunSequence){if(this.jsRunSequence[b].name==c){this.jsRunSequence[b].code=e}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var a=document.createElement("script");a.appendChild(document.createTextNode(this.jsRunSequence[0].code));a.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(a);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else{if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var d=this;var a=document.createElement("script");a.src=this.jsRunSequence[0].path;a.type="text/javascript";this.jsRunSequence[0].status="loading";a.onload=function(){d.jsRunSequence.shift();if(d.jsRunSequence.length>0){d.runjs()}};document.body.appendChild(a)}}};lsloader.tagLoad=function(b,a){this.jsRunSequence.push({name:a,code:"",path:b,status:"failed"});this.runjs()};lsloader.jsfallback=function(c,b){if(!!this.jsnamemap[b]){return}else{this.jsnamemap[b]=b}for(var a in this.jsRunSequence){if(this.jsRunSequence[a].name==b){this.jsRunSequence[a].code="";this.jsRunSequence[a].status="failed";this.jsRunSequence[a].path=c}}this.runjs()};lsloader.cssfallback=function(e,c,b){if(!!this.cssnamemap[c]){return}else{this.cssnamemap[c]=1}var d=document.createElement("link");d.type="text/css";d.href=e;d.rel="stylesheet";d.onload=d.onerror=b;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(d,a)};lsloader.runInlineScript=function(c,b){var a=document.getElementById(b).innerText;this.jsRunSequence.push({name:c,code:a});this.runjs()}})();</script>
+
+    <!-- Import queue -->
+    <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
+
+    <!-- Import CSS -->
+    
+        <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?MKetZV3cUTfDxvMffaOezg==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+        
+            
+                <style id="prettify_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("prettify_css","/css/prettify.min.css?zp8STOU9v89XWFEnN+6YmQ==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+                <style id="prettify_theme"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("prettify_theme","/css/prettify/tranquil-heart.min.css?ul3p9I9MsbOxK0L+BHzDDg==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+            
+        
+
+    
+
+    
+
+    <!-- Config CSS -->
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    overflow-x: hidden !important;
+  }
+  
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  a {
+    color: #00838F;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0097A7 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0097A7 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0097A7 !important;
+  }
+
+  .toTop {
+    background: #757575 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #757575;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #757575;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #757575;
+  }
+
+  .post-toc a:hover {
+    color: #00838F;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-image: url(/img/bg_photo.jpg);
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+<!-- Import Font -->
+<!-- Import Roboto -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+
+<!-- Import Material Icons -->
+
+
+    <style id="material_icons"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_icons","/css/material-icons.css?pqhB/Rd/ab0H2+kZp0RDmw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+
+
+
+    <!-- Import jQuery -->
+    
+        <script>lsloader.load("jq_js","/js/jquery.min.js?qcusAULNeBksqffqUM2+Ig==", true)</script>
+    
+
+    <!-- WebAPP Icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="隻言片語">
+    <meta name="msapplication-starturl" content="https://stevearzh.github.io/2019/06/26/the-forgotten-memory/">
+    <meta name="msapplication-navbutton-color" content="#0097A7">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="隻言片語">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="/favicon.png">
+
+    <!-- Site Verification -->
+    
+    
+
+    <!-- RSS -->
+    
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="https://stevearzh.github.io/2019/06/26/the-forgotten-memory/">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="为了忘却的记忆 | 隻言片語">
+    <meta property="og:image" content="/favicon.png">
+    <meta property="og:description" content="">
+    
+
+    
+        <meta property="article:published_time" content="Wed Jun 26 2019 14:04:38 GMT+0800">
+        <meta property="article:modified_time" content="Thu Jun 27 2019 03:00:09 GMT+0800">
+    
+
+    <!-- The Twitter Card protocol -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Add canonical link for SEO -->
+    
+        <link rel="canonical" href="https://stevearzh.github.io/2019/06/26/the-forgotten-memory/index.html" />
+    
+
+    <!-- Structured-data for SEO -->
+    
+        
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://stevearzh.github.io/2019/06/26/the-forgotten-memory/index.html",
+    "headline": "为了忘却的记忆",
+    "datePublished": "Wed Jun 26 2019 14:04:38 GMT+0800",
+    "dateModified": "Thu Jun 27 2019 03:00:09 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "Stevearzh",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/avatar.jpg"
+        },
+        "description": "相聚有时，后会无期"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "隻言片語",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/favicon.png"
+        }
+    },
+    "keywords": "",
+    "description": "",
+}
+</script>
+
+
+    
+
+    <!-- Analytics -->
+    
+    
+    
+
+    <!-- Custom Head -->
+    
+
+</head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#0"><span class="post-toc-number">1.</span> <span class="post-toc-text">0</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#1"><span class="post-toc-number">2.</span> <span class="post-toc-text">1</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#2"><span class="post-toc-number">3.</span> <span class="post-toc-text">2</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#3"><span class="post-toc-number">4.</span> <span class="post-toc-text">3</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#4"><span class="post-toc-number">5.</span> <span class="post-toc-text">4</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#5"><span class="post-toc-number">6.</span> <span class="post-toc-text">5</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#6"><span class="post-toc-number">7.</span> <span class="post-toc-text">6</span></a></li></ol>
+    </ul>
+    
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
+
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+</script>
+
+        
+    
+            <p class="article-headline-p">
+                为了忘却的记忆
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/avatar.jpg" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Stevearzh</strong>
+        <span>6月 26, 2019</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=为了忘却的记忆&url=https://stevearzh.github.io/2019/06/26/the-forgotten-memory/index.html&pic=https://stevearzh.github.io/favicon.png&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=为了忘却的记忆&url=https://stevearzh.github.io/2019/06/26/the-forgotten-memory/index.html&via=Stevearzh" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://stevearzh.github.io/2019/06/26/the-forgotten-memory/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=https://stevearzh.github.io/2019/06/26/the-forgotten-memory/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=https://stevearzh.github.io/2019/06/26/the-forgotten-memory/index.html&title=为了忘却的记忆" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 LinkedIn
+            </li>
+        </a>
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=隻言片語&title=为了忘却的记忆&summary=&pics=https://stevearzh.github.io/favicon.png&url=https://stevearzh.github.io/2019/06/26/the-forgotten-memory/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=https://stevearzh.github.io/2019/06/26/the-forgotten-memory/index.html&text=为了忘却的记忆" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Telegram
+            </li>
+        </a>
+    
+</ul>
+
+    
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <blockquote>
+<p>前记：本来大抵是不想写这文章的，但上周一次不愉快的面试，最终面被 team leader 疯狂 diss，我觉得有必要把这些经历整理一下。不管怎样，那位负责人有句话说得还是很有道理的：“你应该从你的经历中总结出一些东西…”。有些事情如果不记下来，时间长了我可能就真的忘了。</p>
+</blockquote>
+<h2 id="0"><a href="#0" class="headerlink" title="0"></a>0</h2><p>入职还要回到两年前的那个夏天。感谢 LA 师傅的推荐，我怀揣着惴惴不安的心情加入了这家黑客文化浓厚、创始人来自国内 top 3 高校的安全公司。</p>
+<p>初来乍到一切都是那么新奇和美好。大概花费了一周左右的时间去装系统、学习 Vue、阅读项目源码…之后，我的座位被安排到了产品 monster 的旁边，加入了 WAF 组。</p>
+<p>最开始分配给我的任务也就是调整 API，修理一些 UI 上的 bug 之类的小问题。然后就是接手需求，做一些新的组件、页面之类的。但是很多需求其实并不是很明确，也没有产品文档，甚至没有 UI 设计稿（当然有几次在我的强烈要求下还是会给出设计稿的），也没有明确的 deadline 告诉我哪一天要这个东西，只是说让我去做。</p>
+<p>当时不太理解，或者说还没有适应这种工作模式，就浑浑噩噩的做这些东西，基本也都会在 monster 告诉什么时候要这个东西的时候把任务弄完。比较迷的原因还是在我自己，首先是头一次写 Vue，对各种 API 都不太熟（感觉没有 React 用的舒服）；其次业务我也不太熟悉，比如有哪些哪些模块，具体做了什么，我也都还在摸索，每次周会看到其他同事都能滔滔不绝的总结上周完成的事情，我都是三五句就说完了，也有种有力无处使的感觉，当时更多还是羡慕吧，觉得自己的技术还不到家；最后也就是我没有和产品 monster 很好的交流沟通了，但是接到任务之后我也会就需求，或者原型稿（如果有的话）提出一些我的问题和看法，但总感觉是没有得到正面回应或者说是被打太极一样推了回来。当然，主要问题还是在我。</p>
+<p>产品 monster 以前其实是某安全实验室的黑客，后来加入现在这家公司后就转而做产品，因为初期公司缺人，好几个黑客师傅都转行去做其他业务了。monster 的技术很厉害，有几次下班之后学习 python、go、docker 之类的东西的时候还向他请教过问题，学到了不少东西。</p>
+<h2 id="1"><a href="#1" class="headerlink" title="1"></a>1</h2><p>然后就这样到了十月底，安服那边准备十一月中旬举办一场 CTF 比赛，但是那边没有前端开发了。很荣幸，我就被借调到了那个项目中去。和我对接的是运营 JiaJia 还有负责后端开发的 P 师傅，在我的强烈要求下才加入了设计师。</p>
+<p>最开始啥都没有，只有一个写了些基本需求的 PPT，没有设计稿，甚至连产品原型都没画，告诉我可以自己技术选型，需要什么后端接口可以给 P 师傅说。我说这样不行，起码得有个设计稿我才能方便评估接下来的工作。</p>
+<p>然后过了两三天的样子，设计稿出来的，但是看着特别糊，没有用心做。当时不太理解设计师为什么这么草率，但后来和其他同事聊天，才知道全公司就这么一个设计师，业务特别繁重，有点理解同情他了。</p>
+<p>大概有五六个页面的样子，我就按照自己的评估写了个规划书，列举了每个页面大致会做多长时间，难点在哪里。最后总共的时间大概是在两周左右的样子。因为页面上很多东西其实都不确定，我留了一些时间。但是按照这个规划时间做完，可能只有两三天比赛就要开始了。</p>
+<p>运营同学看了我的规划书就慌了，觉得自己处理不了，把安服的老大找了过了。安服老大问我为什么会花这么长时间，我就给他解释了一下，主要还是很多需求都是模糊不清的。安服老大表示不能接受，说最多只能给我一周的时间，因为活动需要提前宣传、选手注册之类的，不能太晚。这个时候我们研发这边的老板 Z 也过来了解情况。我说我不敢保证一周能弄完，只能说我尽量做，可以周末过来加班。Z 老板说行那你先这做着，每天和我同步一下进度。然后和安服老大商量了一下，大致就这么定了。</p>
+<p>技术选型为了方便顺手当然是 React + Redux，为了挑战（尝鲜，稳定，… what ever）也开始使用了 TypeScript。感谢当时同在 WAF 组的 kingwl 师傅提供的帮助，虽然师傅之前也没有写过 TypeScript（师傅现在已经是 TypeScript 的前 50 的贡献者了），不过师傅一直在向我安利 elm。当时 Redux 配合 TypeScript 使用给我造成了不小的麻烦，在师傅的帮助下才算是折腾好。本来还纠结过要不要用 koa2 的，结果其他的师傅都劝我不要生产环境用 node…</p>
+<p>最后周六加了天班，到第二周的周二下午差不多弄完了，花了七八个工作日的样子。很多东西开始做了也发现其实没有需求上那么高大上那么唬人，有些复杂的需求也是可以协商解决的（改成简单需求，或者直接砍掉）。</p>
+<p>这任务大概就算圆满过去了。最后总结的时候每个人需要做个 PPT，然后交给 JiaJia 在总结会上做发言。我还找了周末下午去星巴克好好做了一份，然后发到只有 JiaJia、P 师傅、设计师还有我的微信群里。设计师还问我为啥要这么认真（why so serious），当时也不太理解设计师的心情，不过 JiaJia 和 P 师傅都说认真是对的，认真些好…</p>
+<p>完事儿之后就又回到了 WAF 项目组。期间大概也还是按照之前的模式去工作。也做了一些类似拆分 2k 行 api 文件、重新组织 components 文件夹之类的小工作。然后就到春节了。</p>
+<h2 id="2"><a href="#2" class="headerlink" title="2"></a>2</h2><p>大概就是绩效考核这么个东西。Z 老板把我叫去单聊，说我上一年的表现不太好，说我这个人有些懒惰。说实话当时有些懵逼，也不明白为啥会说我懒，内心充满了问号。就大概说了下可能是我不太能 get 到具体的需求是啥，然后想尽量把事情做完美之类的。然后表达了我还是想在技术上有所追求，想尝试接触一些后端业务的想法。老板表示明白了。说他要亲自带领一个项目（这项目存在也有一段时间了），准备把我调到他那个组去。我说行没问题。当时本来在尝试往 WAF 的前端项目里加入测试的，也就没继续研究了，大概和 kingwl 师傅交接了一下工作就去了新的项目组。</p>
+<p>新的项目组是一个蜜罐系统。开发这边（前端+后端）总共就四个人（包括我）。有幸认识了 SZM 师傅和 ZWZ 师傅，还有和我一样不幸上一年绩效被打差评的 GXD 师傅。SZM 师傅是前端组长，带我搞前端这块儿东西；ZWZ 是后端组长，也是开发这边负责人，带 GXD 师傅搞后端那块儿。</p>
+<p>SZM 师傅和 ZWZ 师傅都是硕士毕业，转行来的这个公司。说来惭愧，在互联网行业我混的比这两位师傅都要久，但是依然比两位师傅差了很远，无论是技术还是工作处世，也向他们学到了很多东西。包括 GXD 师傅在内，三位师傅的技术都特别强，在蜜罐组工作的这段时间是最有感觉的一段时间了。</p>
+<p>再来介绍下蜜罐项目的相关情况。我来项目组之前，好像已经换过一两波人了。前端最开始是 Vue 写的，然后 SZM 大佬花了些时间迁移到了 React 上来，我来的时候这项工作已经接近尾声，我也负责了一小部分的迁移工作。然后就是引入了 TypeScript，处于和 JS 共存的局面。（过完年回来那阵）SZM 大佬特别强的在我还在调研的时候就搞出了方案来。后端那边听说以前负责后端的师傅不搞了，跑去当网管（运维）了，似乎是和产品闹得不快…然后产品也不在这个项目组了…所以才有了 Z 老板亲自当产品接手这个项目一说。（依旧没有 UI 设计师）</p>
+<p>期间的经历只能用一言难尽这个词来形容。Z 老板在最开始的时候确实也是亲自参加周会，和我们分析需求、制定任务排期。但是到了后面，很多东西其实都推翻了最初的设定、超出预想，再加上 Z 老板也有其他业务要忙，就又招了两个产品助理，看上去也就是大学刚毕业的样子，老板就逐渐淡出了蜜罐这个项目。</p>
+<p>虽说是产品助理，但感觉主要还是负责跑业务、拉客户，去客户那里部署项目之类的…产品上他们感觉也是揣测老板的意思，但老板本身想法其实也不确定，有时候他觉得应该是这么搞，但是来个人一说不该这么搞，要那么搞，老板也觉得有道理，不能坚持自己的观点。而且其中一个产品助理，还经常会和我们发表一些他对技术需求的看法：这个不难做吧，感觉一天就可以搞定了…之类的。</p>
+<p>这就导致 ZWZ 师傅和 SZM 师傅特别苦逼，经常因为老板拍脑袋决定的原因，或者说下周要去客户那里演示之类的，加班到特别晚，甚至周末都要来加班。我和 GXD 师傅也会帮他们分担一些任务，但基本都是非临时性的（临时性的需求第一时间也不会通知到我们这边），我们基本也就是到点下班就走。期间我也如愿以偿的完了一些后端的业务，不过基本也就是参考师傅们之前的代码写的，了解了一点点的 Django 还有 DRF，接触了一些诸如序列化反序列化、原子性之类的概念。再往下到什么 PostgreSQL 还有 Redis 就不太懂了。</p>
+<p>在后来一段任务需求不那么紧的时间里，我们也考虑了要不要和隔壁扫描器组一样尝试一下 GraphQL。当时 GXD 大佬大概调研两天之后就说不搞了，然后我有点不知天高地厚的说我来搞。</p>
+<p>我和隔壁扫描器组一样选择了 Graphene 这个库，当时比较成熟的 GraphQL 的库也就这个了。难点不光在于要和 Django 以及 DRF 一起使用，隔壁组也是这样。我们这边实际上是 GraphQL 和 RESTFUL 两套协议并存的。为了配合 django 使用不得不引入 django-graphene 的库，然后当时我们这边有用到 django-filter 的库。本身用 graphene 写出来的接口是没有 limit, offset, total 这些分页参数的，为了配合之前的那些库又引入了叫 graphene-django-extras 的库，到了这里其实有些扭曲了…</p>
+<p>当时遇到的一个难题是做模糊搜索，因为已经用了 django-filter 所以不能借用其他页面的实现方案，最后靠的是在 Github 下发 <a href="https://github.com/carltongibson/django-filter/issues/919" target="_blank" rel="noopener">issue</a> 提问才最终解决了问题。</p>
+<p>做完这个东西之后感觉我还是欠缺很多后端的东西，可能确实不太适合做后端，也就没有再写其他的后端业务了。当时也因为过于低估任务难度，导致 deadline 快到的时候东西没做完，还和 SZM 大佬发生了一次争吵，很对不住他…</p>
+<p>又过了一阵写组件写页面堆业务的时间之后，GXD 大佬就离职去了一家币圈公司。接着发生了一件我不知道怎么形容的事情。以前在极客邦的同事，去了掘金，突然发微信问我：“听说你们有个产品要开源了，是个蜜罐系统，叫MY。啥情况啊？”然后给我发了个文章链接。（忘了是掘金上的文章还是微信公众号的文章了）</p>
+<p>我心里卧槽，这不是我现在做的项目吗，但是不叫这个名字啊？然后打开文章看了下，好像说的有模有样的。就把链接发到了工作群里，问 Z 老板啥情况，老板说不慌会上会解释。</p>
+<p>之后的会上，老板说我们的目前的蜜罐会分为两个版本，原来的版本保持不变，对外销售；新的削减版会在 github 上开源，交给社区去发展。当时只觉得这事情有点魔幻。</p>
+<h2 id="3"><a href="#3" class="headerlink" title="3"></a>3</h2><p>又过了一个星期的样子 Z 老板又把我叫去聊天，不过这次倒不是绩效问题。老板表示想把我抽调到内部项目中去帮忙做 CRM 的前端重构。我问那现在蜜罐项目怎么办，老板说只留 SZM 大佬负责维护就可以。我说那行吧，就到了新的项目组。</p>
+<p>当时大概是七月底还是八月初了，然后 CRM 项目开了个会。Z 老板表示现在的 CRM 虽然也勉强能用，但是操作特别繁琐，而且时常会有卡顿，希望我们重构一下，为将来考虑，支持最大 3000 并发。并且表示希望九月底可以上线重构版本替代现有版本。接着就是产品还是产品助理上来展示了一下半成品的产品原型稿，复杂的部分还没有做好。</p>
+<p>开完会之后没几天，公司就搬家了，从园区最南头搬到了最北头。</p>
+<p>先介绍下 CRM 这个项目的情况，最开始公司是没有这个项目的，用的外面买来的一套系统（不太清楚数据是放在自己这里还是别人那里）。后来老板们觉得用别人的东西非常不安全，毕竟自己也是做安全的，就决定从零开始自己开发一套 CRM 系统。</p>
+<p>这个项目最开始应该是 pdd 师傅负责的，pdd 师傅技术也是特别强，是公司的初创员工之一，在大一还是大二就加入公司了。当时的技术选型是前端选择了 Vue + buefy + Nuxt.js，后端是 Nodejs + MongoDB。</p>
+<p>但是选型定好之后没多久，pdd 师傅就因为有事回学校了，这个项目就交给了比我早入职一周的 frantic 师傅。师傅在当时那个时候也是相当的苦逼，全部项目组就只有他一个人，前端后端产品设计基本都是他一个人扛（升级上线之类的运维工作似乎主要是 pdd 师傅那边在维护），甚至还要经常参加销售的会议去了解定制需求（自己给自己提需求，自己开发）。也因此在来年年会上 Z 老板给了他“最了解销售的开发”大奖。直到后来扫描器项目开坑 frantic 师傅才得以跳出 CRM 项目去到扫描器那边，CRM 项目也因此停滞了将近半年时间。</p>
+<p>本身刚到 CRM 这边我也以为我只是起到负责协助的作用的，需求也是特别模糊，只说要做优化，但是没说要做哪些优化。给我的感觉就是，老板说要把大象塞进冰箱，但是他只给我把冰箱门打开，要求我把大象放进去，再把门关上。具体怎么做看着办，但是东西希望能按时做出来。</p>
+<p>后端那边 pdd 师傅已经从 nodejs 迁移到 golang 了，还是在用 mongodb，以及计划引入 graphql。</p>
+<p>前端这边，说实话，看了产品给我的原型稿，我甚至觉得不如 frantic 师傅原来做的那个。而且本身给我的是原型稿不是设计稿，但是产品要求我像素级还原，当时做的是个日历，边框从方角改成了圆角，又从圆角改回了方角（就是 css 的 border-radius 属性），边框宽度也是改了很多次…</p>
+<p>也尝试看了下以前的代码逻辑和实现，有很多扭曲的地方，比如权限系统的抽象，比如合同流程的签订之类的，也很难理解，甚至看到了销售那边的老板工号（不清楚是不是哈希过后的值）被硬编码到了代码里的操作…</p>
+<p>一开始我其实是不想管这些东西的，只要把分配给我的任务弄完了就行。说我是前端负责人，其实前端这边其实也就我一个人…但是每次周会后 Z 老板都会找我单聊，关注项目前端的进度，表明他对这个项目的厚望。</p>
+<p>大概两三次周会后吧，我觉得再这样下去不行，决定好好做一下这个事情（虽然我已开始就不太看好这个项目），也就是真正意义上的重构。首先我花费了一两天总结了一下项目中存在的问题，还有我不太好处理的地方。然后又找 frantic 师傅聊了一下，了解了一下他当时是怎么做这个项目的，当时他的一些设计和想法是什么样子的，具体这么处理好不好，是不是有更好的办法之类的。然后给 frantic 师傅说我准备把所有代码都重新写一下，师傅想了一下觉得没有问题。接着又去请教了一下 SZM 师傅，问他当时怎样说服老板把项目从 Vue 迁移到 React 的，也请教了一些其他的细节性的问题。</p>
+<p>我整理了一下就写了个重构的提议书出来，大概讲了目前 CRM 的项目结构、重构愿景、有哪些不足、遇到了哪些问题等，最后给出了我的方案。因为当时只有我一个人在写前端，所以我的方案是基于 React 的。其实本身支持 3000 人并发这个和前端关系不大的，前端主要是优化操作流程，再就是工程上的规范代码保证稳定性方便以后多人协作之类的。</p>
+<p>方案写完之后我先找到的 pdd 师傅聊，本来我以为 pdd 师傅也不负责前端这块，而且前端这里面 90% 的代码都不是他写的，大概就是他点个头然后我再去拿方案说服 Z 老板。</p>
+<p>结果 pdd 师傅不同意重构，理由没有说，只是问我为啥不用 Vue 重构，我解释了目前只有我在写，当然是怎么快怎么来，但是如果非要用 Vue 重构我也不是不可以接受，只要重构就可以，理由方案书里已经写了。pdd 师傅又反问我为啥没有考虑 Angular？</p>
+<p>于是我又回去，在方案书的最后加上了 Vue 和 Angular 两种方案的提议。改完之后我又去找 pdd 师傅聊，结果师傅还是不同意，但是理由没有。我说那不行就发到公司的技术群里吧，让大家给些意见。（因为一般来说如果大家遇到问题互相不能说服对方，就可以再找其他同事来评评理。）pdd 师傅一开始不同意，最后说那你要发就发吧。</p>
+<p>发到技术群里之后，各位师傅也提出了一些自己的看法和建议。我修改了方案书之后再去找 pdd 师傅聊，师傅直接就告诉我：“你明天就不在这个项目组了。”</p>
+<p>我当时满脸黑人问号，以为师傅说的是气话，也就不欢而散。结果快下班的时候 Z 老板又来找我谈话，说：“你和 pdd 师傅<strong>技术理念不合</strong>，我这边又准备搞个新的项目了，你来我这边吧，想用啥技术栈你自己随便选。”</p>
+<p>说实话我当时有点生气了，我做调研查资料搞了那么久，合着你以为我是为了用新的框架和库才要重构的吗？我认真写了一份方案书，你一句技术理念不合就给我否定了？你以为我写代码是在这里过家家吗？pdd 师傅不懂事你老板也不懂事吗？你之前不是对这个项目期望挺大的吗？</p>
+<p>因为去 CRM 项目组没几天的时候 Z 老板问过我春节之前会不会离职，我向老板保证过不会。当然新的项目组我肯定是不会去的，我怕还会发生同样的事情。所以，我想去相对成熟一些的项目组。当时还在蜜罐项目组的时候给扫描器帮过忙，写了一个星期的代码，感觉那边还算是相对比较完善的。就给 Z 老板说我想去扫描器项目组。Z 老板大概觉得有些头疼和无奈，还是说好。</p>
+<p>现在再看大概老板还是想让我作为负责人带项目的吧，但是去了扫描器那边我就不是负责人了，因为 frantic 师傅已经在那边了。</p>
+<p>在我去扫描器组的一周之后，ZWZ 师傅也从公司离职走了。</p>
+<h2 id="4"><a href="#4" class="headerlink" title="4"></a>4</h2><p>接着就要说到扫描器项目了。从定位上来看他是公司继 WAF、蜜罐之后的第三大产品。从工程化角度来看也是我呆过的项目中相对来说最规范的，起码是有测试、有 CI 的。不过同样的，没有设计师。</p>
+<p>我到项目组差不多也是九月中旬了，也就是熟悉下环境阅读一下源码之类的。中秋十一之后工作继续。</p>
+<p>可以看到这边其实隐约有了敏捷开发的雏形，或者说准备搞敏捷开发那一套东西。任务管理发布追踪都是在 jira 平台上进行，相应的工作记录、wiki 之类的则是在 confluence 上。</p>
+<p>但是，又是这个但是，很多敏捷开发的核心要素这边还是没有掌握的。比如任务的粒度过大，经常出现史诗级任务，导致 deadline 经常是随意定的。换言之，经常会出现 jira 上分配的任务到期但是开发没有完成的情况。</p>
+<p>刚开始的时候都没什么问题，即使是延期了但是任务也总归会完成，没有人来 blame 你是不是延期了或者催促要验收。似乎是开发和产品双方达成了一个默认协议，也就是说即使产品给布置了史诗级任务和一个大概的时间，开发这边也都会接受下来，延期之后只要是说一下就没啥问题，只要你还是在做尽心去这个东西。这个时期 jira 基本上算是一个摆设。</p>
+<p>平衡被打破大致发生在十一月中旬的时候。也许是产品的管理层（上层）决定要彻底推行敏捷开发这一套东西，安排了一个产品助理来负责督促进度。当 jira 上的任务快到 deadline 的时候产品助理会去找相应的责任人催促。这就导致那段时间经常是处于一个手忙脚乱的状态，忙了这边忙那边。因为首先任务是直接塞给你的，没有评估一说，时间够不够你没法决定，而且会出现有的人突然在任务快到期的时候塞给你一个任务的情况出现。</p>
+<p>而这位产品助理同学又特别的负责，这点必须要给与肯定，认真是好事情。但这也导致如果随便分配给你的任务你没注意 deadline（没仔细评估）导致没能按时完成的话，你会被两头 blame。</p>
+<p>所以从那个时候开始，产品 JR 再给我分派新的需求的时候，我首先会单方面评估我能否在给定的期限内完成这个任务，如果不行的话我会去找产品进行协商，表明这个任务可能无法在指定期限内完成，并指出无法按时完成的客观原因，可以看看是不是需要把需求迭代到之后的排期内完成或者是削减需求以达到简单层面的实现。</p>
+<p>但是，因为扫描器这个产品是还没有盈利（收入）的，导致会出现一些情况，销售那边在给客户演示产品的时候，客户会提到一些我们还没有的东西，销售会完全不考虑的给客户承诺说我们会做这个东西，回过头来产品就会要求我们把这些东西做出来（完全没有挡需求的人）。</p>
+<p>而这种情况可能会出现在我在赶另外一个任务的 deadline 的时候，或者这个任务可能和我们项目初期的一些设定出现了不符、相矛盾、相冲突的东西。我会和 JR 说这个东西我这可能确实没法做，因为一些什么什么样的具体原因，如果要做是不是可以考虑推迟或者削减一下需求。但是 JR 强硬的说不行，必须要做。我就说那我确实做不了这个东西。开始的几次 JR 会说，那为什么 frantic 师傅和另外一个师傅就不会推这些东西。结果后来这两位师傅也会拒绝那些不合理的需求了。结果到某一次我又拒绝了 JR 之后，她发脾气说你要是不做我就去 LC（公司的技术负责人）那里告状了，我说你去告状我也还是这些理由，做不了。大概梁子就是这个时候结下了。</p>
+<p>再后来项目又引入每周一早晨的周会制度，周会上会总结上周工作以及安排接下来一周要完成的哪些需求，相应的也会有需求的分解会，把具体的需求分配到个人。但是开发这边的感觉非但不是工作越来越顺利越来越有条理，而是越来越忙、越来越乱。上周的需求还没处理完的时候这周的需求又已经安排上了，形成了恶性循环。</p>
+<p>终于，在十二月月底的某一天，被搞得疲惫不堪的我决定站出来说点东西。在一个夜不能寐的周日夜晚，我在床头举着手机总结了如下的一些点：</p>
+<p><img src="/img/the-forgotten-memory/IMG_01.jpg" alt=""></p>
+<p>并在第二天的周会上提出了这些问题。会后总结到了 confluence 上。并催生了《研发流程协议书》，由 Z 老板亲自撰写。</p>
+<p>然后，时间推进到了一月，在我写出那份建议书之后，有些东西改了，比如 CI 时会加入测试分支，提交的代码不会直接合并到 master，jira 上的流程有了一些修改…但是大部分提议还是被忽视了。</p>
+<p>时间再推进，到了春节之后，SZM 大佬也离职走了。</p>
+<p>接着，出了件哭笑不得的事情。销售在某个周三卖出去了某个我们还没有做的产品。严格来说也并不能说没有做，举例来说我们原先的系统是 ABCDE 五个模块组成的，每个模块之间相互耦合，并非热插拔模式。但是销售给客户承诺我们可以单卖 ABC 模块，并表示我们下周就可以提供产品。这个消息周四快下班了才告诉我们。</p>
+<p>周五的时候，后端 YY 师傅表示没问题，可以如期提交，并且提出了在原先代码的基础上进行删代码实现新产品的方案，并表示周末可以加班。我提出了反对意见，表示应该采用从零开始拷贝代码的方式去实现新产品，相应的也需要给出充足的开发时间。YY 师傅表示你怎么能确定你说的方案是对的，难道不应该是大家抱成一团往同一个方向使劲去做成一件事情吗？我说我没法保证我的提议一定是正确的，但是目前这个提议确实是存在不少的问题的，就算你赶工能完成这次任务但不能保证以后不会出现不可控的问题，对于抱团使劲这个我当时觉得有些上纲上线，没有评价。</p>
+<p>接着，周五临近下班时通知开发，明天周六来加班。我又是表达了反对意见。本身这次需求就是临时塞进来的，没有在周一例会的规划中安排。如果是周一安排的需求，我没有完成，我可以接受加班，但是这次加班明显是因为不合理的项目需求规划导致的。结果反对无效，行吧，我周六还是过来了。</p>
+<p>这个事情过去之后，我不再会去关注项目怎么搞了，只是尽力做好分配给我的工作。因为没办法，讲的道理提的意见全都没有用，还是该怎么搞怎么搞，该怎么玩儿怎么玩儿。随便打，各凭本事。</p>
+<h2 id="5"><a href="#5" class="headerlink" title="5"></a>5</h2><p>再接着时间就到了清明节后。清明节前曾有过一次让我们自评的表格，为了绩效啥的。我想想去年做过的项目，大致写了写，给了自己一个中上的评价，感觉最终结果差不多应该也是这样吧。</p>
+<p>结果年终奖拿到手，发现只拿到一个月，被扣了一个月，就感觉到已经被搞了。但也想着就这样吧，反正八月份合同到期我就走人了。</p>
+<p>但是 4 月 10 号下午，HR 过来找我说要和我聊聊。当时第一反应是感觉不知道又要被踢到哪个项目组去了。结果 HR 开口跪：“你去年的绩效特别差，扫描器项目组这边决定不要你了。公司方面希望和你终止合同。按照 N + 1 走”。我愣了一下，说：“行吧，那我没问题”。大概 HR 以为我会有什么出格反应结果没有，也或许是为了缓和一下气氛，笑了下，说：“怎么，提前就猜到了吗？”“大概猜到了。”</p>
+<p>我接着又问了：“能给我个理由吗？”“主管能动性不积极。”我有点不知道怎么评价…上一次看到这个词好像还是在考研政治里面。HR 接着又问了：“你觉得为什么会这样呢？”我有点无奈，甚至有点伤感，我尽力了，但是没想到背后会被捅了一刀：“大概是没有把这里当成家吧…”</p>
+<p>HR 语塞了一下，又问我：“那你对你自己是怎么评价的呢？因为几乎所有人都给你打得差评。”这点我其实不太明白，因为当时绩效除了自我评价之外每个人还会随机分配到另外一个同事评价，比如我分配到的就是 YY 师傅的，因为我有过绩效被搞的经历，所以我给他的是全优评价。（不被别有用心的人拿来作为把柄）所以我不太明白“所有人给我差评”的所有人是指谁。当然我也没问，我明白这个潜意思就是有人搞我了。</p>
+<p>“我觉得我做得没有什么问题，分配给我的工作，我认真、尽心尽力去完成。”我这么回复道。“那你为什么不主动推进以下项目呢？你的能力不止于此，为什么不主动包揽更多的工作去做，这样公司也好给你升职加薪呢？”HR 这么反问我。</p>
+<p>当时的心里就是卧槽，我完成我分内的工作居然还不够，你还想让我做更多工作？但是我说道：“我怎么没有主动包揽推进拖项目？去年八月份的时候在 CRM 项目组那边我不是也尝试推进了吗？那最终结果是什么，我不是被  pdd 师傅踢出项目组才来到扫描器这边了吗？而且扫描器这边我的自评里也写了，我不是也针对项目的流程开发管理提出了我的建议和意见了吗？”</p>
+<p>“那结果呢？” HR 问道。“结果就是，改了一部分，没有全改。我认为我还是对项目做出了一些贡献的。”</p>
+<p>然后，就看 HR 像背书一样说道：“那这不符合常理呀。当员工通过帮助企业创造了价值的同时，会实现自我价值，产生很强烈的荣誉感和归属感。进而会在今后的工作生产中更加全身心得投入进去…那你为什么反而沦落到这个地步呢？”（原话记不清楚了，但是大致是这个意思）</p>
+<p>我苦笑一下，问道：“这是你们人力资源管理里面的什么理论吧？” HR 点点头。“对我的这些负面评价应该也主要是在今年，或者说是春节之后吧？”“哦这点我不太清楚，因为我没详细问过他们这点。”</p>
+<p>我又问：“那对我负面评价的点呢？”“比如你觉得你的代码质量怎么样？”“我认为我写的没有啥大问题，虽然我不能说优秀但我是尽心尽力去完成的。虽然有时候会就一些诸如写法风格之类的问题和 frantic 师傅发生一些争执，但最后也都是能合理解决的。”我倒是不担心，大不了找人来对峙，不过 HR 就没有就这个问题再接着说。</p>
+<p>“是不是有一次加班，大家都来了，只有你没有来？”“那次加班本身就是不合理的，当时我也说了，不是因为预期的东西没有按时完成导致的加班，而是非预期不合理的安排导致的。而且那次加班我也来了。”“不是那次，之前还有一次。”我确实没印象了：“那我不记得了…”</p>
+<p>“你也是从大厂里出来的人，应该是很厉害的…”“我认为评价一个人不应该从他是否去过大厂来评价，或者说不应该过于看他的以往经历”“那作为一个 HR 我们是没办法考察开发的技术水平的，当然也只能从他的过往经历来看”我想想也是，就点了点头。</p>
+<p>“你当时为什么会选择我们这家公司呢？”“主要是比较好的技术氛围吧，大牛特别多，和他们一起工作能学到不少东西。但是从去年开始这些厉害的人相继离开，新招来的人说实话可能没有那么厉害。”</p>
+<p>“那你觉得为什么会这样子呢，或者说他们的离职会对你造成影响吗？”“影响的话或多或少还是会有一些的吧。原因大概也就是随着公司的扩张，原有的人才会被稀释之类的。”“你看，你不是很明白吗。”我苦笑，摇了摇头。</p>
+<p>“上面也对你感到非常惋惜，没想到你会走到这一步…”大概意思就是 Z 老板也知道我是被人搞了，而且默许了这次行动。HR 接着又说了：“上面对你的技术实力还是非常肯定的…”等一下，刚才还说了对我都是负面评价的，不过我没点破。我说：“我其实不是计算机专业出来的，我是转行过来的，我其实有很多知识上的欠缺，在我的自评里我也说了，我以后的目标其实是优先把这些欠缺的东西补上，比如算法、网络、操作系统…”</p>
+<p>HR 又继续说道：“上面对你的技术是非常认可的，说很多人一辈子都无法达到你的高度，非常惋惜你为什么要这么浪费天赋…”我再次满脸黑人问号，我 TM 怎么就浪费天赋了？？？我说道：“没有，远的比和离职的哪些师傅，近的比如 kingwl 师傅，frantic 师傅，whtsky 师傅，我都是不如他们的。”</p>
+<p>“那你对公司有什么疑问吗？”“我其实不太能接受春节之后搞的考勤制度，本来不是也提倡的自由办公，只要工作完成就可以的吗？”“那你觉得原因是什么呢？”“我明白，公司扩张之后人会变多，只要有一个人来得晚了那其他人就会觉得不公平，即使那个人走得晚甚至该干的工作也干了，但是你没法像所有人解释。而且大概也是为了统一管理，公司扩大的必经之路吧。”“你看，你又明白了，但是为什么你的所作所为没表现出来这点呢？”“虽然不满意但我也是按照考勤准时来到点走的吧…”而且理解不代表我认同这件事，当时没想到“认同”这个词，也就没这么说。</p>
+<p>HR 又说道：“为什么你的想法很成熟，但是你的表现却不是这样呢？”我有些语塞，不知道怎么回。HR 继续说：“如果你表现的和你的想法一样成熟的话你大概也不会走到今天这一步了…” 我：“…” 说白了就是后悔要开了我了呗，但我也明白想让我离开不是 HR 的意思，她也只是替上面表态的。“你工作多久了？”“四年了。”“哦那你知道的挺多的，那些工作两三年的很多东西都不知道。”“四年和五年也差不了太多”“不一样，三到五年都是一样的”“…”行吧，估计又是什么人力资源管理理论了。</p>
+<p>想着反正也要离职了，索性该问的都问了：“公司是不是快要没钱了？”“为什么这么问呢？”“去年还是前年那个时候融资了多少不是都告诉宣传了吗，然后从去年开始又是扩招又是换新办公室的，这些钱花不了太久的吧。而且产品在周会上还会告诉我们开发今年产品的目标销售额是多少多少钱，这不是急着变现吗？”“你们的工资不是还照常在发的吗？”“…”行吧，估计 HR 也不会很清楚这个东西。</p>
+<p>HR 问了最后一个问题：“工作中最让你感到快乐的一件事是什么？”“就是工作（写代码）本身吧”，我答道。</p>
+<p>然后就办理离职手续，走人。说实话我没想到 last day 会定在谈话当天。</p>
+<p>本来以为我大概是公司有史以来第一个被开掉人，结果我被开的前一天已经有个师傅被开了，也是因为绩效给得很低，给他的理由是“缺乏职业素养”。</p>
+<p>…大概是想搞什么末位淘汰制之类的，但是讲道理不是这么玩儿的啊。</p>
+<h2 id="6"><a href="#6" class="headerlink" title="6"></a>6</h2><p>最近找工作的时候，当问及离职原因，我为了简单起见，总结的直接原因：和产品有分析，产品给我的绩效（KPI）比较差，和公司协议离职。因为我不能像这篇文章一样说这么多对吧。</p>
+<p>可能因为找的都是外企的缘故，他们估计也不太理解国内的 KPI。最开始我还会提到“主观能动性不积极”这个东西，我感觉这明显得就是扣帽子嘛，不过后面也不说了。反正面试到最后基本都不是因为技术不过关被挂掉，都是不明不白就没动静了。</p>
+<p>上周面的那家面了四轮：第一轮是 HR 打电话过来背调，了解我的过往经历、离职原因之类的；第二轮在线做题；第三轮还是 HR，考察我的英语口语交流能力；第四轮（如果入职的话，未来的）直属上司，外国人，对我进行考察，包括聊我的过往经历、工作流程，还有上机（白板）写代码。大致都是很顺利的样子。我对他们的技术栈和技术架构也是比较感兴趣的。</p>
+<p>结果到了第五轮，技术负责人一进门，我就感觉到了这个大叔的不友善。在简短的相互自我介绍之后，他先是问我为什么上家会离职，我说了原因。他接着问我分歧是什么，我说比如怎么去做好（打磨）一个产品，而不是只想着怎么赚钱？他问我什么叫打磨一个产品，有什么例子吗？我说比如你要做一个新功能，不是你确实做过调研分析了，应该做这个功能，而是我们的竞品有这个功能。</p>
+<p>然后感觉他的语气有点不耐烦了：“你知道有进攻型产品和防御型产品一说吗？有的时候做一个产品仅仅只是为了防御的。”然后我和他说：“我认为进攻型产品和防御型产品应当仅仅是在公司已经在市场站稳了脚跟的情况下才会做的，比如你说 BAT 这种量级的公司，我是理解的。但是我之前所在的公司很明显还处在一种需要挤进市场，快速实现盈利这样一种状态。本身的融资经过这些年应该也是剩得不多了。”</p>
+<p>然后技术负责人没有把这个话题继续下去，反问我：“你怎么会关注这些点。”“作为员工关注这些点没啥问题吧。”</p>
+<p>“公司没想过培养你吗？”“大概还是有吧，之前有个 CRM 项目老板让我负责前端这块，说希望能支持最高 3000 人并发。我准备重构一下前端项目，调研了一周写了计划书，最后去找后端负责人商量的时候，他不同意，还把我从项目组踢了出来。”“他为什么不同意？”“我猜大概是因为这个项目最早是他发起的，尽管他没有写多少代码。”“那要是我我也不同意”“……”“你觉得你这件事有没有什么做得不对的地方？”我又想了想，说：“我觉得这件事我没有做得不对的地方。”</p>
+<p>然后这位大叔就摆出了一付要教育我的样子来：“这件事应该算是对你职业生涯打击很大的一件事。很多时候，有些问题都不单单只是技术问题。你要和人多交流，保持你应有的尊重…”</p>
+<p>其实抛开谈论的事情，他说得这话其实没有问题，但是他说这话很明显是在没有了解事情的全部的基础上发表的观点，当时给我的感觉就是为了怼我而怼我。但当时我没有怼回去，首先礼貌问题，其次毕竟万一入职了这可是大老板…</p>
+<p>他又接着问我：“你没办法改变别人，你只能改变你自己。你再想想，如果再经历一次这种事你会怎么做？”…我只好想象了，说：“我大概会去先请他吃个饭，聊聊他对重构这件事的看法”“哎对了，交流是很关键的，要保持你的尊重”“……”</p>
+<p>“你应该从你的经历中总结出一些东西…你工作多久了？”“四年了。”“不算太长，还年轻”“…”</p>
+<p>最后聊完之后等了很久 HR 才过来，但是没有料到薪资问题，只是询问了一下我对面试的反馈。大概就猜到这次应该是又黄了。</p>
+<p>于是，为了避免以后面试再经历同样的悲剧，写下了这篇文章…</p>
+
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 DISQUS -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'https://stevearzh.github.io/2019/06/26/the-forgotten-memory/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'https://stevearzh.github.io/2019/06/26/the-forgotten-memory/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+<script type="text/ls-javascript" id="disqus-thread-script">
+    queue.offer(function() {
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//stevearzh.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
+</script>
+
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/2019/08/19/three-inorder-traversal-ways/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2019/04/11/say-something/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/avatar.jpg" alt="Stevearzh's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        stevearzh@outlook.com
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="mailto:stevearzh@outlook.com" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    归档
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2019/08/">八月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/06/">六月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/04/">四月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/03/">三月 2019<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/02/">二月 2019<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/01/">一月 2019<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/01/">一月 2018<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/09/">九月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/11/">十一月 2015<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/07/">七月 2015<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/06/">六月 2015<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/04/">四月 2015<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/01/">一月 2015<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2014/12/">十二月 2014<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2014/11/">十一月 2014<span class="sidebar_archives-count">1</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="/about" title="关于">
+                
+                    <i class="material-icons sidebar-material-icons">person</i>
+                
+                关于
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/links" title="友链">
+                
+                    <i class="material-icons sidebar-material-icons">star</i>
+                
+                友链
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/rss2.xml" title="RSS">
+                
+                    <i class="material-icons sidebar-material-icons">rss_feed</i>
+                
+                RSS
+            </a>
+        </li>
+        
+    
+
+    <!-- Article Number  -->
+    
+        <li>
+            <a href="/archives">
+                文章总数
+                <span class="sidebar-badge">25</span>
+            </a>
+        </li>
+        
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+    <div class="sidebar-divider"></div>
+
+
+<!-- Theme Material -->
+
+    <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+            主题 - Material
+            <span class="sidebar-badge badge-circle">i</span>
+        </div>
+    </a>
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+        <a href="https://twitter.com/Stevearzh" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-twitter">
+                <span class="visuallyhidden">Twitter</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Facebook -->
+    
+        <a href="https://www.facebook.com/yu.zhang.5267" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-facebook">
+                <span class="visuallyhidden">Facebook</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Google + -->
+    
+        <a href="https://plus.google.com/u/0/+SteveZhang2014" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-gplus">
+                <span class="visuallyhidden">Google Plus</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Weibo -->
+    
+        <a href="https://weibo.com/zy911004" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-weibo">
+                <span class="visuallyhidden">Weibo</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Instagram -->
+    
+        <a href="https://www.instagram.com/stevearzh/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-instagram">
+                <span class="visuallyhidden">Instagram</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Tumblr -->
+    
+        <a href="https://www.tumblr.com/blog/stevearzh" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-tumblr">
+                <span class="visuallyhidden">Tumblr</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Github -->
+    
+        <a href="https://github.com/Stevearzh" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-github">
+                <span class="visuallyhidden">Github</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- LinkedIn -->
+    
+        <a href="https://www.linkedin.com/in/stevearzh/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-linkedin">
+                <span class="visuallyhidden">LinkedIn</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Zhihu -->
+    
+        <a href="https://www.zhihu.com/people/Stevearzh/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-zhihu">
+                <span class="visuallyhidden">Zhihu</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Bilibili -->
+    
+        <a href="https://space.bilibili.com/489843/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-bilibili">
+                <span class="visuallyhidden">Bilibili</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Telegram -->
+    
+        <a href="http://t.me/stevearzh" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-telegram">
+                <span class="visuallyhidden">Telegram</span>
+            </button><!--
+     --></a>
+    
+    
+    <!-- V2EX -->
+    
+        <a href="https://www.v2ex.com/member/Stevearzh" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-v2ex">
+                <span class="visuallyhidden">V2EX</span>
+            </button><!--
+     --></a>
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©&nbsp;2014&nbsp;-<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script>隻言片語
+            
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import JS File -->
+
+    <script>lsloader.load("lazyload_js","/js/lazyload.min.js?1BcfzuNXqV+ntF6gq+5X3Q==", true)</script>
+
+
+
+    <script>lsloader.load("js_js","/js/js.min.js?V/53wGualMuiPM3xoetD5Q==", true)</script>
+
+
+
+    <script>lsloader.load("np_js","/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==", true)</script>
+
+
+<script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+
+
+
+
+
+
+   <!-- 使用 DISQUS js 代码 -->
+<script id="dsq-count-scr" src="//stevearzh.disqus.com/count.js" async></script>
+
+
+
+
+
+<!-- UC Browser Compatible -->
+<script>
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf('ucbrowser')>0) {
+		document.write('<link rel="stylesheet" href="/css/uc.css">');
+	   alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+	}
+</script>
+
+<!-- Import prettify js  -->
+
+    
+        
+            <script>lsloader.load("prettify_js","/js/prettify.min.js?WN07fivHQSMKWy7BmHBB6w==", true)</script>
+        
+    
+
+
+
+<!-- Window Load -->
+<!-- add class for prettify -->
+<script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+
+    
+        
+            $(function() {
+                $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto;');
+                prettyPrint();
+                })
+        
+    
+    
+</script>
+
+<!-- MathJax Load-->
+
+
+<!-- Bing Background -->
+
+
+<script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script>
+
+<!-- Custom Footer -->
+
+
+
+<script>
+    (function(){
+        var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
+
+        for (var i = 0; i < scriptList.length; ++i) {
+            var item = scriptList[i];
+            lsloader.runInlineScript(item.id,item.id);
+        }
+    })()
+console.log('\n %c © Material Theme | Version: 1.5.2 | https://github.com/viosey/hexo-theme-material %c \n', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-left-radius:5px;border-bottom-left-radius:5px;', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-right-radius:5px;border-bottom-right-radius:5px;');
+</script>
+
+                </main>
+            </div>
+        </body>
+    
+</html>

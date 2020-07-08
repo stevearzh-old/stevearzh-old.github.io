@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html style="display: none;" lang="zh">
+    <head>
+    <meta charset="utf-8">
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.5.2 -->
+    <script>
+        window.materialVersion = "1.5.2"
+        // Delete localstorage with these tags
+        window.oldVersion = [
+            'codestartv1',
+            '1.3.4',
+            '1.4.0',
+            '1.4.0b1',
+            '1.5.0'
+        ]
+    </script>
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Meta & Info -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Title -->
+    
+    <title>
+        
+            猫眼离职记 | 
+        
+        隻言片語
+    </title>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/favicon.png">
+    <link rel="icon" href="/favicon.png">
+
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" itemprop="description" content="">
+    <meta name="keywords" content="">
+    <meta name="theme-color" content="#0097A7">
+
+    <!-- Disable Fucking Bloody Baidu Tranformation -->
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import lsloader -->
+    <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(a){try{localStorage.removeItem(a)}catch(b){}};lsloader.setLS=function(a,c){try{localStorage.setItem(a,c)}catch(b){}};lsloader.getLS=function(a){var c="";try{c=localStorage.getItem(a)}catch(b){c=""}return c};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var b=[];for(var a=0;a<localStorage.length;a++){b.push(localStorage.key(a))}b.forEach(function(e){var f=lsloader.getLS(e);if(window.oldVersion){var d=window.oldVersion.reduce(function(g,h){return g||f.indexOf("/*"+h+"*/")!==-1},false);if(d){lsloader.removeLS(e)}}})}catch(c){}};lsloader.clean();lsloader.load=function(f,a,b,d){if(typeof b==="boolean"){d=b;b=undefined}d=d||false;b=b||function(){};var e;e=this.getLS(f);if(e&&e.indexOf(versionString)===-1){this.removeLS(f);this.requestResource(f,a,b,d);return}if(e){var c=e.split(versionString)[0];if(c!=a){console.log("reload:"+a);this.removeLS(f);this.requestResource(f,a,b,d);return}e=e.split(versionString)[1];if(d){this.jsRunSequence.push({name:f,code:e});this.runjs(a,f,e)}else{document.getElementById(f).appendChild(document.createTextNode(e));b()}}else{this.requestResource(f,a,b,d)}};lsloader.requestResource=function(b,e,a,c){var d=this;if(c){this.iojs(e,b,function(h,f,g){d.setLS(f,h+versionString+g);d.runjs(h,f,g)})}else{this.iocss(e,b,function(f){document.getElementById(b).appendChild(document.createTextNode(f));d.setLS(b,e+versionString+f)},a)}};lsloader.iojs=function(d,b,g){var a=this;a.jsRunSequence.push({name:b,code:""});try{var f=new XMLHttpRequest();f.open("get",d,true);f.onreadystatechange=function(){if(f.readyState==4){if((f.status>=200&&f.status<300)||f.status==304){if(f.response!=""){g(d,b,f.response);return}}a.jsfallback(d,b)}};f.send(null)}catch(c){a.jsfallback(d,b)}};lsloader.iocss=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.iofonts=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.runjs=function(f,c,e){if(!!c&&!!e){for(var b in this.jsRunSequence){if(this.jsRunSequence[b].name==c){this.jsRunSequence[b].code=e}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var a=document.createElement("script");a.appendChild(document.createTextNode(this.jsRunSequence[0].code));a.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(a);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else{if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var d=this;var a=document.createElement("script");a.src=this.jsRunSequence[0].path;a.type="text/javascript";this.jsRunSequence[0].status="loading";a.onload=function(){d.jsRunSequence.shift();if(d.jsRunSequence.length>0){d.runjs()}};document.body.appendChild(a)}}};lsloader.tagLoad=function(b,a){this.jsRunSequence.push({name:a,code:"",path:b,status:"failed"});this.runjs()};lsloader.jsfallback=function(c,b){if(!!this.jsnamemap[b]){return}else{this.jsnamemap[b]=b}for(var a in this.jsRunSequence){if(this.jsRunSequence[a].name==b){this.jsRunSequence[a].code="";this.jsRunSequence[a].status="failed";this.jsRunSequence[a].path=c}}this.runjs()};lsloader.cssfallback=function(e,c,b){if(!!this.cssnamemap[c]){return}else{this.cssnamemap[c]=1}var d=document.createElement("link");d.type="text/css";d.href=e;d.rel="stylesheet";d.onload=d.onerror=b;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(d,a)};lsloader.runInlineScript=function(c,b){var a=document.getElementById(b).innerText;this.jsRunSequence.push({name:c,code:a});this.runjs()}})();</script>
+
+    <!-- Import queue -->
+    <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
+
+    <!-- Import CSS -->
+    
+        <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?MKetZV3cUTfDxvMffaOezg==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+        
+            
+                <style id="prettify_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("prettify_css","/css/prettify.min.css?zp8STOU9v89XWFEnN+6YmQ==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+                <style id="prettify_theme"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("prettify_theme","/css/prettify/tranquil-heart.min.css?ul3p9I9MsbOxK0L+BHzDDg==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+            
+        
+
+    
+
+    
+
+    <!-- Config CSS -->
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    overflow-x: hidden !important;
+  }
+  
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  a {
+    color: #00838F;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0097A7 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0097A7 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0097A7 !important;
+  }
+
+  .toTop {
+    background: #757575 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #757575;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #757575;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #757575;
+  }
+
+  .post-toc a:hover {
+    color: #00838F;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-image: url(/img/bg_photo.jpg);
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+<!-- Import Font -->
+<!-- Import Roboto -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+
+<!-- Import Material Icons -->
+
+
+    <style id="material_icons"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_icons","/css/material-icons.css?pqhB/Rd/ab0H2+kZp0RDmw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+
+
+
+    <!-- Import jQuery -->
+    
+        <script>lsloader.load("jq_js","/js/jquery.min.js?qcusAULNeBksqffqUM2+Ig==", true)</script>
+    
+
+    <!-- WebAPP Icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="隻言片語">
+    <meta name="msapplication-starturl" content="https://stevearzh.github.io/2017/09/16/how-i-left-maoyan/">
+    <meta name="msapplication-navbutton-color" content="#0097A7">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="隻言片語">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="/favicon.png">
+
+    <!-- Site Verification -->
+    
+    
+
+    <!-- RSS -->
+    
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="https://stevearzh.github.io/2017/09/16/how-i-left-maoyan/">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="猫眼离职记 | 隻言片語">
+    <meta property="og:image" content="/favicon.png">
+    <meta property="og:description" content="">
+    
+
+    
+        <meta property="article:published_time" content="Sat Sep 16 2017 20:07:34 GMT+0800">
+        <meta property="article:modified_time" content="Sat Sep 16 2017 23:17:35 GMT+0800">
+    
+
+    <!-- The Twitter Card protocol -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Add canonical link for SEO -->
+    
+        <link rel="canonical" href="https://stevearzh.github.io/2017/09/16/how-i-left-maoyan/index.html" />
+    
+
+    <!-- Structured-data for SEO -->
+    
+        
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://stevearzh.github.io/2017/09/16/how-i-left-maoyan/index.html",
+    "headline": "猫眼离职记",
+    "datePublished": "Sat Sep 16 2017 20:07:34 GMT+0800",
+    "dateModified": "Sat Sep 16 2017 23:17:35 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "Stevearzh",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/avatar.jpg"
+        },
+        "description": "相聚有时，后会无期"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "隻言片語",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/favicon.png"
+        }
+    },
+    "keywords": "",
+    "description": "",
+}
+</script>
+
+
+    
+
+    <!-- Analytics -->
+    
+    
+    
+
+    <!-- Custom Head -->
+    
+
+</head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
+
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+</script>
+
+        
+    
+            <p class="article-headline-p">
+                猫眼离职记
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/avatar.jpg" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Stevearzh</strong>
+        <span>9月 16, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=猫眼离职记&url=https://stevearzh.github.io/2017/09/16/how-i-left-maoyan/index.html&pic=https://stevearzh.github.io/favicon.png&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=猫眼离职记&url=https://stevearzh.github.io/2017/09/16/how-i-left-maoyan/index.html&via=Stevearzh" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://stevearzh.github.io/2017/09/16/how-i-left-maoyan/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=https://stevearzh.github.io/2017/09/16/how-i-left-maoyan/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=https://stevearzh.github.io/2017/09/16/how-i-left-maoyan/index.html&title=猫眼离职记" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 LinkedIn
+            </li>
+        </a>
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=隻言片語&title=猫眼离职记&summary=&pics=https://stevearzh.github.io/favicon.png&url=https://stevearzh.github.io/2017/09/16/how-i-left-maoyan/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=https://stevearzh.github.io/2017/09/16/how-i-left-maoyan/index.html&text=猫眼离职记" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Telegram
+            </li>
+        </a>
+    
+</ul>
+
+    
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>事情要从六月底的某个周五说起。</p>
+<p>晚上六点半左右，波哥，我当时的 leader，在大象（内部 IM）上告诉我有半小时的空闲时间，可以和我聊聊，因为我之前多次找过他希望聊聊。</p>
+<p>找到就近的空闲会议室坐下来后，我开门见山的告诉波哥：希望晚上能够早些下班，因为我下班回家后还会有自己的安排；不希望现在这样的<strong>被动加班</strong>（每天晚上八点半开日会，九点多甚至十点才能下班），尤其是在我工作照常完成的情况下，还得干等到日会结束。</p>
+<p>波哥表示很惊讶，说：“我不太懂你们前端，团队的其他（后端）同学都表示项目完不成、时间不够，你还是第一个向我抱怨太闲的人，如果你的工作完成了，可以去看看项目的其他地方有没有工作可以去做。”（潜意思就是我的工作不饱和）“抱怨每个人都会，但我要的是解决方案。”</p>
+<p>于是我就提出了我的建议：把每日例会改成早晨开，这样就可以早点下班了。同时也稍微抱怨了下没有加班费的问题。（每天八点后走有 30 块钱餐饮补助，但是得自己找发票）</p>
+<p>波哥一口回绝，说不行，这属于倡导团队走向的问题。他问我：“你知道为什么我要把例会放到晚上八点半才开吗？每天开完会我们的后端都还会有一个技术分享会，当然了，你们前端从来就没参加过。这个其实是我希望大家能够主动或者被动的多学一些东西。人都是有惰性的，如果我不这样督促大家，团队是无法进步的。”</p>
+<p>“还有工作时间问题。你刚入职的时候公司的 Q1 绩效你也参加了，每个人都会有考核。同样的，每个团队之间也会有竞争。”</p>
+<p>“你知道咱们团队目前平均每天打卡时间是多少吗？10 个小时。你平均每天打卡时间只有 9 个小时。猫眼某些团队平均每天的打卡时间是达到了 11 个小时的。”</p>
+<p>我点了点头，说我感觉不太适应团队的节奏，本来是想转岗去美团的其他部门的，但是没有找到合适的岗位，就决定不转了。</p>
+<p>（其实这才是我“被离职”的真正原因，我解释下：Q1 之后我当时的组长就因为某些原因转岗去了美团基础架构组，而且大象的某些群组里也会有很多内部转岗之类的消息，使我以为转岗也属于美团的一种文化。于是我就拜托之前的组长、还有当时来美团面试的餐饮部门的前端 leader 打听下转岗的事情。这个 leader 表示没问题，同时也建议我找波哥谈谈。我当时没想太多，就找着谈了。但我也是在离职后才知道：得有部门接收你了，你才可以和 leader 摊牌。不然 leader 是可以整你的。即使你是抱着就事论事的态度，但 leader 不一定会。）</p>
+<p>波哥这时已经有些不爽了，但当时我没发现，也没想到他会用绩效来整我。他缓缓说道：“团队里每个人的想法是不同的，目标也是不一样的，别人的目标和你的一定不相同。”</p>
+<p>“其实互联网这个圈子很小的，有的人在北京混不下去了，就走了。等你干的久了，厉害了，你就会发现不管在哪都是这些人。”</p>
+<p>（还在之后的周会上重复这句话了… 我没想到这是对我的一个威胁，让我在北京混不下去？？？不过确实美团混不下去了）</p>
+<p>“我希望我的团队里都是厉害的人，所以我希望每个人都有相同的节奏。像你这样每天中午十一点半才来上班，对团队造成的影响是不好的，但同样如果有人八点半来上班我也是不满意的”</p>
+<p>（我也没想到这是对我的最后通牒，或者劝退我也只是随便找个借口就行？当然，这是我唯一做的不对的地方，上班时间太晚。）</p>
+<p>“你每天十一点半才来上班，电脑还没摸热就去吃中午饭了，然后回来睡个午觉就两点了。” “你还不睡午觉看电影，那天我坐在你旁边 XXX 的位置上，你就明目张胆的在那里看。”</p>
+<p>…实际上是在看美剧，因为我怕打扰睡午觉的同学，就戴着耳机了，当时也没注意到波哥。我说：“不是午休时间吗，我觉得打打游戏、看看美剧没啥问题啊，很多同学包括你波哥不也会打打农药吗。而且我的工作是按时完成的啊？”</p>
+<p>波哥呵呵一笑，说：“你在我这，甚至在你（新的）组长那里可以算是没有问题的。那你让别的同学怎么想，人是会说三道四的。”</p>
+<p>“如果信息公开透明，自然不会有人说三道四了。”</p>
+<p>波哥避开了这个话头，说：“你的组长也和我反映了，说你的工作确实完成的质量不错。我不是很懂前端，但像你之前提议的前端‘权限树’这种，不是挺好的吗？你任务完成后，可以尽量找点这种工作去做。你知道咱们团队有统计千行代码错误率这个事情吗？”</p>
+<p>“知道，但是听组长说我们前端好像没弄这个东西？”</p>
+<p>“弄了，所有上传到 git 仓库的代码都会有这个统计，你知道你们前端那边谁的错误率最高吗？”</p>
+<p>我摇了摇头。</p>
+<p>“XXX（这里称之为 X 同学吧）还有你的组长。”</p>
+<p>我有点惊讶。</p>
+<p>“当然了，这个也只是统计的一种手段，不能说明什么。人写的代码多/代码难，出错率当然就高了。就和统计打卡时间一样，你和 X 同学打卡时间一个倒数第一一个倒数第二。不过 X 同学最近好像来得也早一些了。”</p>
+<p>（我更没想到这里会是和我的一种妥协？如果我妥协了，就拿 X 同学当典型了？？？但愿只是我的猜测吧，不过我走之前给 X 同学说了这个事情。）</p>
+<p>……</p>
+<p>谈话之后，生活照常继续。每天还是九点下班，我也还是每天十一点半才来上班。期间也有美团某部门的 leader 来找我画大饼，问我有没有兴趣加入。而我因为准备和猫眼另一个部门的前端大佬合作，在 Q3 弄一个微博舆情监控系统，谢绝了那个邀请。本来以为不会有什么变化，那次找波哥的谈话也只是小插曲罢了。</p>
+<p>直到过了几天，系统提示我填写 Q2 季度绩效自评，我按照之前 Q1 的模式胡乱写了些交上去，心里想着这东西还真麻烦…</p>
+<p>（说道 Q1 绩效，还有个搞笑的事情不得不提。因为当时我刚入职，很多业务不太熟悉，导致工作不能按时完成，还加过班。波哥看我很辛苦很努力的样子，还向上面提议给我发个最佳新人奖，结果要求入职满三个月才能发所以作罢…）</p>
+<p>结果精彩的地方来了，在例行的季度谈话中，波哥和我的组长一脸严肃的找着我（白脸变黑脸），波哥说：“鉴于你对团队造成的不好的影响，（组织上）决定 Q2 绩效给你评 C，你有什么异议吗？”</p>
+<p>我还是有点惊讶的，不过想想自己又不准备转岗了，还找了个有意思的项目去做，就不发表什么意见了吧，就说：“没有异议。”</p>
+<p>波哥又说：“有什么想说的吗？我看你最近几天还是来这么晚，是不是不想干了？！”</p>
+<p>（原来是想我自己提出离职的事，但我当时可没往这个方向想…)</p>
+<p>我连忙说：“没有没有。”</p>
+<p>这个时候组长又说话了：“早就让你对咱们现在这个项目做一些架构上的优化，你一直不做，你看 X 同学不就做的挺好。”</p>
+<p>我说：“其实我反对为了所谓的优化而优化。因为咱们的项目还没有上线，优化的地方不一定是今后出问题的地方。在不顾及其他同学的情况下进行优化、引入新的技术栈其实是不对的…”</p>
+<p>这个时候分明感受到了波哥鄙视的目光。</p>
+<p>然后谈话就草草结束了… 我回去想了想，这样也不是事儿。机械地重复搬砖感觉也提升不了技术了，实在不行就去后端组写 Java 吧。也和玩儿的比较好的后端同学聊了聊，感觉可行。就在两天后又找波哥聊，提到了希望转岗去后端组的事情。</p>
+<p>（估计本来是以为我要提离职的，结果我是提转岗去写 Java。）“你这个吧，事情比较麻烦…”</p>
+<p>“你之前不是在周会也说了吗，说如果业务写烦了可以转去基础架构组，反过来也可以，说是鼓励转岗的”</p>
+<p>“因为那是 Java 之间互相转。你知道咱们美团这边招技术岗实际是分四个方向的吗，前端、后端、测试还有运维。是哪个方向 offer 上就已经写死了。这种跨方向的转岗可能需要重新面试的，我当时面你的时候也没有面 Java 方面的问题”</p>
+<p>“行啊，重新面试也没问题”</p>
+<p>“这样吧，你找你的 HR 聊聊这个问题，看看她那边的意见。还有什么问题吗，我看你工作的也挺不开心的…”</p>
+<p>“…没有了”</p>
+<p>……</p>
+<p>到了第二天早晨的谈话，HR 说：“听你的 leader 说你希望转岗去写 Java，能说说为什么吗？”</p>
+<p>“是这样的，因为感觉现在前端这边感觉一直在重复机械地工作，想在我任务完成的基础上去接触一些 Java 方面的工作。”</p>
+<p>“但是你 Q2 刚出来的绩效是 C，很不好啊？转岗的最基本要求的是工作优秀才可以的。你的工作非常不负责…”</p>
+<p>“呃，绩效评 C 是 leader 说我对团队造成的影响不好，跟工作没有关系。”</p>
+<p>“唔，你也知道自己对团队造成了很不好的影响了？你们每个人的打卡时间我这边都有关注的，我看你打卡时间都是十一点半左右对吧？” “没错。”</p>
+<p>“因为我是新来的 HR，不太熟悉你们之前的状况。你是二月份来的对吧，也是项目组的第一个前端。”</p>
+<p>本来我想说我之前那个组长的，不过想了想组长好像是个全栈，就点了点头：“是的。”</p>
+<p>“谁给你面试的？”</p>
+<p>“…选座交易组那边的 XXX（大佬）”</p>
+<p>“你的试用期是半年，你还有一个月的时间。我们这边希望你能尽快发出离职申请，抓紧时间去找下一份机会，这样我会在你的离职信上写的好看一些（然而并没有好看什么的）。今天是周四，你的 last day 最迟是定在下周四，你选一天吧？”</p>
+<p>被打了套组合拳，我当时有点蒙圈，就随口说了句：“那就下周四吧。”</p>
+<p>“爽快，那你等下回去就尽快提离职申请吧”</p>
+<p>“…等下，我刚才没理解清楚，是等下就要提离职，不是下周四提离职？”</p>
+<p>“没错”</p>
+<p>“还能往后推吗？”</p>
+<p>“不行，” HR 冷着脸回到，“明天你就不用来公司，下周四来办手续就行，工资给你照常算。还有其他问题吗？”</p>
+<p>“…没了”</p>
+<p>……</p>
+<p>回到工位后，不知道怎么提离职，就给 HR 发了条大象，HR 告诉我大象里就能提。找了半天才找到。提完离职后（还没审批完），发现有段改动的代码还没有提交，结果已经没有 push 权限了。就联系了组长，找他交接工作把改动过的文件拷贝给他。我问组长：“我的工作有问题吗，HR 说我工作方面很差。” 组长说：“我一直和波哥说你的工作完成的不错，甚至比某些个同学的效率还要高。HR 这只是找个名头而已。”</p>
+<p>“哦…” (既然不是工作问题，那绩效评 C 就是价值观问题了吧，而且问猫眼呆了好多年的同事，绩效第一次评 C 就被劝退的没听说过)</p>
+<p>“那我需要发离职邮件吗？” “发一下吧，记得写得漂亮点”</p>
+<p>……</p>
+<p>尽管下着暴雨，我也还是拖着一堆物品淋雨赶到地铁站。结果在地铁上，我发现 HR 在大象上给我发消息：“要不今天就把手续给你办了吧，省的你下周还得再跑一趟。你直接去找 XXX 同事就好，last day 给你写下周四…” 真没见过这么赶人走的，我回到：“不好意思，我已经撤了，还是下周四再办手续吧”</p>
+<p>……</p>
+<p>“基于职业生涯规划方面的原因，不能和大家共同走下去了…” 写邮件的同时，我也理解了之前组长的离职邮件</p>
+<p>……</p>
+<p>办完手续的当天，约了本来准备 Q3 共建项目的大佬聊了聊。大佬先问了我为什么没有联系转岗去他部门… 因为我以为猫眼不能内部转的，要不之前组长怎么去美团了。又和大佬聊了很多，包括职业生涯规划、人生规划等等，获益匪浅。</p>
+<p>……</p>
+<p>然而事情到这里并没有结束。就在我焦头烂额准备找工作的时候，boss 直聘上有消息来了，结果一看是美团金服的前端 leader，问我有没有兴趣去他们那里，和我详细说明了团队所做的事情还有技术架构等，感觉还不错，就约了时间见面聊。见面聊完后都感觉不错，leader 就让我回去等消息，说是要走人事那边的流程。</p>
+<p>结果等了两三天还没消息，我就问 leader 还有戏吗，leader 说再等等，HR 那边说有点麻烦，明天应该就好了，我说好。结果第二天告诉我要走一个面试的流程，好嘛，那就走吧，约了时间又去面试（其实本来是要电话面的，我说正式当面面吧）。结果一面差点翻车，面试官小哥还蛮严肃的，最后还是靠了一句 FP 实现反杀；二面大佬说不聊技术了，聊聊你之前为啥离职的，然后随便聊了聊… 大佬又告诫说我兴趣面太广也不太好，要专注一个点，出了成果后再去考虑其他点… 还和我说了说美团这边的评定等级的制度，内部一些不成文的规矩等等等等，聊了得有一个小时吧。然后就是一个挺漂亮的 HR 小姐姐，来和我说明了工资，福利等常规问题，结果最后突然问我：“你觉得你的性格怎么样？” 我：“呃，不知道，感觉还好吧…” HR 说：“你是个个性很强的人” 我：“…” 反正之前没人这么说过我…</p>
+<p>按照正常剧本我这个情况只要等 offer 入职就好了。结果当天晚上回家，就有猎头给我打电话问我是不是刚从猫眼离职，在寻找新的机会。我：“？？？” 还有这种操作。</p>
+<p>因为如果是通过 boss 直聘或者其他渠道拿到我的简历的猎头，都会问我是不是还在职，这个直接就知道我离职了，感觉是我的信息被猫眼 HR 给卖了…</p>
+<p>我说确实是离职了，但是已经确定要转岗去美团金服了。</p>
+<p>结果，猎头告诉我说：“你这种情况是转不了岗了。我也有美团那边的朋友，那边的规矩我们也懂。美团转岗是需要之前部门领导签字同意的…”</p>
+<p>我：“…” 总之是不太相信，然后微笑着拒绝了猎头的好意</p>
+<p>……</p>
+<p>然后第二天中午美团金服的 HR 就打来电话，告诉我很抱歉，虽然…尽管…非常抱歉…</p>
+<p>我有点不太相信… 又微信问了下那边的 leader 是不是我的技术表现得不太好（毕竟一面差点翻车），leader 给我回的语音说不是的，我的技术还不错，没能转岗是因为美团对我这个职级的要求比较苛刻，需要绩效优秀以及之前部门领导的签字同意…</p>
+<p>GG…</p>
+<p>本来还想在微博/知乎/朋友圈撕一下这个事情的，不能吃哑巴亏是不是… 不过在美团（猫眼）的将近半年时间，也得到了很多大佬的提携指点，还是算了吧。要怪就怪公司不完善的制度吧。（当然了，如果你要去猫眼新业务技术部工作，say no）</p>
+<p>仅以此文纪念。</p>
+
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 DISQUS -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'https://stevearzh.github.io/2017/09/16/how-i-left-maoyan/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'https://stevearzh.github.io/2017/09/16/how-i-left-maoyan/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+<script type="text/ls-javascript" id="disqus-thread-script">
+    queue.offer(function() {
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//stevearzh.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
+</script>
+
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/2018/01/14/pwnablekr-collision-writeup/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2015/11/21/emacs-config/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/avatar.jpg" alt="Stevearzh's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        stevearzh@outlook.com
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="mailto:stevearzh@outlook.com" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    归档
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2019/08/">八月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/06/">六月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/04/">四月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/03/">三月 2019<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/02/">二月 2019<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/01/">一月 2019<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/01/">一月 2018<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/09/">九月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/11/">十一月 2015<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/07/">七月 2015<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/06/">六月 2015<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/04/">四月 2015<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/01/">一月 2015<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2014/12/">十二月 2014<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2014/11/">十一月 2014<span class="sidebar_archives-count">1</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="/about" title="关于">
+                
+                    <i class="material-icons sidebar-material-icons">person</i>
+                
+                关于
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/links" title="友链">
+                
+                    <i class="material-icons sidebar-material-icons">star</i>
+                
+                友链
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/rss2.xml" title="RSS">
+                
+                    <i class="material-icons sidebar-material-icons">rss_feed</i>
+                
+                RSS
+            </a>
+        </li>
+        
+    
+
+    <!-- Article Number  -->
+    
+        <li>
+            <a href="/archives">
+                文章总数
+                <span class="sidebar-badge">25</span>
+            </a>
+        </li>
+        
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+    <div class="sidebar-divider"></div>
+
+
+<!-- Theme Material -->
+
+    <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+            主题 - Material
+            <span class="sidebar-badge badge-circle">i</span>
+        </div>
+    </a>
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+        <a href="https://twitter.com/Stevearzh" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-twitter">
+                <span class="visuallyhidden">Twitter</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Facebook -->
+    
+        <a href="https://www.facebook.com/yu.zhang.5267" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-facebook">
+                <span class="visuallyhidden">Facebook</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Google + -->
+    
+        <a href="https://plus.google.com/u/0/+SteveZhang2014" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-gplus">
+                <span class="visuallyhidden">Google Plus</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Weibo -->
+    
+        <a href="https://weibo.com/zy911004" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-weibo">
+                <span class="visuallyhidden">Weibo</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Instagram -->
+    
+        <a href="https://www.instagram.com/stevearzh/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-instagram">
+                <span class="visuallyhidden">Instagram</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Tumblr -->
+    
+        <a href="https://www.tumblr.com/blog/stevearzh" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-tumblr">
+                <span class="visuallyhidden">Tumblr</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Github -->
+    
+        <a href="https://github.com/Stevearzh" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-github">
+                <span class="visuallyhidden">Github</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- LinkedIn -->
+    
+        <a href="https://www.linkedin.com/in/stevearzh/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-linkedin">
+                <span class="visuallyhidden">LinkedIn</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Zhihu -->
+    
+        <a href="https://www.zhihu.com/people/Stevearzh/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-zhihu">
+                <span class="visuallyhidden">Zhihu</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Bilibili -->
+    
+        <a href="https://space.bilibili.com/489843/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-bilibili">
+                <span class="visuallyhidden">Bilibili</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Telegram -->
+    
+        <a href="http://t.me/stevearzh" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-telegram">
+                <span class="visuallyhidden">Telegram</span>
+            </button><!--
+     --></a>
+    
+    
+    <!-- V2EX -->
+    
+        <a href="https://www.v2ex.com/member/Stevearzh" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-v2ex">
+                <span class="visuallyhidden">V2EX</span>
+            </button><!--
+     --></a>
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©&nbsp;2014&nbsp;-<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script>隻言片語
+            
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import JS File -->
+
+    <script>lsloader.load("lazyload_js","/js/lazyload.min.js?1BcfzuNXqV+ntF6gq+5X3Q==", true)</script>
+
+
+
+    <script>lsloader.load("js_js","/js/js.min.js?V/53wGualMuiPM3xoetD5Q==", true)</script>
+
+
+
+    <script>lsloader.load("np_js","/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==", true)</script>
+
+
+<script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+
+
+
+
+
+
+   <!-- 使用 DISQUS js 代码 -->
+<script id="dsq-count-scr" src="//stevearzh.disqus.com/count.js" async></script>
+
+
+
+
+
+<!-- UC Browser Compatible -->
+<script>
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf('ucbrowser')>0) {
+		document.write('<link rel="stylesheet" href="/css/uc.css">');
+	   alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+	}
+</script>
+
+<!-- Import prettify js  -->
+
+    
+        
+            <script>lsloader.load("prettify_js","/js/prettify.min.js?WN07fivHQSMKWy7BmHBB6w==", true)</script>
+        
+    
+
+
+
+<!-- Window Load -->
+<!-- add class for prettify -->
+<script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+
+    
+        
+            $(function() {
+                $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto;');
+                prettyPrint();
+                })
+        
+    
+    
+</script>
+
+<!-- MathJax Load-->
+
+
+<!-- Bing Background -->
+
+
+<script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script>
+
+<!-- Custom Footer -->
+
+
+
+<script>
+    (function(){
+        var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
+
+        for (var i = 0; i < scriptList.length; ++i) {
+            var item = scriptList[i];
+            lsloader.runInlineScript(item.id,item.id);
+        }
+    })()
+console.log('\n %c © Material Theme | Version: 1.5.2 | https://github.com/viosey/hexo-theme-material %c \n', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-left-radius:5px;border-bottom-left-radius:5px;', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-right-radius:5px;border-bottom-right-radius:5px;');
+</script>
+
+                </main>
+            </div>
+        </body>
+    
+</html>
